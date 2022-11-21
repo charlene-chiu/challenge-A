@@ -12,9 +12,9 @@ This program calculates the number of full days elapsed between two events.
 
 ##   validation.py
 ### Description:
-This program validate the result of date_difference.py and generate random cases.
+This program validates the result of date_difference.py and generates random cases.
 ###  Usage:
-`python validation.py -r 0 -f 01/12/2020 -s 02/05/2022`  
+`python validation.py -r [0, 1] -f [datetime 1] -s [datetime 2]`  
 ### Example: 
 1. Case validation: `python validation.py -r 0 -f 01/12/2020 -s 02/05/2022`
 2. Random case validation: `python validation.py -r 1`
